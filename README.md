@@ -78,52 +78,52 @@ Cross-lingual Learning-to-Rank with Shared Representations, Proceedings of the 2
 데이터 예시(castorini/mr-tydi · Datasets at Hugging Face)
 
 |:---:|:-----------------:|:-----------:|:--------:|
-|query_id (string)|query (string)|positive_passages (list)|negative_passages (list)|
-|"1"|"로마의 면적은 서울시의 2배인가요?" | [ { "docid": "3228#0", "text": "로마()는 이탈리아의 수도이자 라치오주의 주도로, 테베레 강 연안에 있다. 로마시의 행정구역 면적은 1,285km2로 서울시의 2배정도이고, 2014년 인구는 290여만명이다. 로마시 권역의 인구는 430여만명이다. [1] 로마 대도시현의 인구는 400만이 넘지만 밀라노나 나폴리 대도시현에 비해 면적이 3~4배 넓은 편이고 되려 로마시의 면적과 밀라노와 나폴리의 대도시현의 면적이 비슷하므로 세 도시 모두 300만 정도로 비슷한 규모의 도시라 볼 수 있다.", "title": "로마" } ] | [ { "docid": "819462#0", "text": "한성백제박물관(漢城百濟博物館, )은 대한민국 서울특별시 송파구 방이동 88-20에 위치한 서울시립박물관이다. 올림픽공원 내부에 위치하고 있으며, 지하3층 지상2층으로 나뉘어져 있다. 상설전시는 서울의 선사·고대문화를 중심으로 백제 탄생 이전과 탄생 후 멸망까지의 내용으로 구성되어 있다. 전시 공간은 지하 2층부터 지상 1층까지이다. 2012년 4월 30일 개관하였고, 총면적은 19,423m 정도이며, 대지면적은 14,894m, 건축면적은 2,901m이다. 관장은(중략)|
+|query_id (string)|query (string)|positive_passages (list)|negative_passages (list)|             
+|1|로마의 면적은 서울시의 2배인가요? | [ { "docid": "3228#0", "text": "로마()는 이탈리아의 수도이자 라치오주의 주도로, 테베레 강 연안에 있다. 로마시의 행정구역 면적은 1,285km2로 서울시의 2배정도이고, 2014년 인구는 290여만명이다. 로마시 권역의 인구는 430여만명이다. [1] 로마 대도시현의 인구는 400만이 넘지만 밀라노나 나폴리 대도시현에 비해 면적이 3~4배 넓은 편이고 되려 로마시의 면적과 밀라노와 나폴리의 대도시현의 면적이 비슷하므로 세 도시 모두 300만 정도로 비슷한 규모의 도시라 볼 수 있다.", "title": "로마" } ] | [ { "docid": "819462#0", "text": "한성백제박물관(漢城百濟博物館, )은 대한민국 서울특별시 송파구 방이동 88-20에 위치한 서울시립박물관이다. 올림픽공원 내부에 위치하고 있으며, 지하3층 지상2층으로 나뉘어져 있다. 상설전시는 서울의 선사·고대문화를 중심으로 백제 탄생 이전과 탄생 후 멸망까지의 내용으로 구성되어 있다. 전시 공간은 지하 2층부터 지상 1층까지이다. 2012년 4월 30일 개관하였고, 총면적은 19,423m 정도이며, 대지면적은 14,894m, 건축면적은 2,901m이다. 관장은(중략)|      
+                  
+위의 데이터의 확장             
+https://github.com/beir-cellar/beir/wiki/Multilingual-datasets                     
 
-위의 데이터의 확장
-https://github.com/beir-cellar/beir/wiki/Multilingual-datasets
+                             
+## (3) XQA-DST                   
+(논문) Zhou, Han, Ignacio Iacobacci and Pasquale Minervini. “XQA-DST: Multi-Domain and Multi-Lingual Dialogue State Tracking.” Findings (2022).          
+             
+것허브 :  thunlp/XQA: Dataset and baseline for ACL 2019 paper "XQA: A Cross-lingual Open-domain Question Answering Dataset" (github.com).
 
-
-## (3) XQA-DST
-(논문) Zhou, Han, Ignacio Iacobacci and Pasquale Minervini. “XQA-DST: Multi-Domain and Multi-Lingual Dialogue State Tracking.” Findings (2022).
-
-것허브 :  thunlp/XQA: Dataset and baseline for ACL 2019 paper "XQA: A Cross-lingual Open-domain Question Answering Dataset" (github.com)
-
-(questions, answers, and top-10 relevant articles wiki dumps) 
-Wikipedia.org에서 Did you know~로 시작하는 페이지 질문을 추출
-
-![did](https://github.com/songys/Multilingual-retrival-task/assets/8298703/ca424cd7-725d-4e85-b11b-bdddd74fa150)
-
-
-
-데이터 크기와 포함 언어 (한국어가 없지만 번역 등의 방법으로 구축은 어렵지 않을 듯함)
+(questions, answers, and top-10 relevant articles wiki dumps)            
+Wikipedia.org에서 Did you know~로 시작하는 페이지 질문을 추출      
+          
+![did](https://github.com/songys/Multilingual-retrival-task/assets/8298703/ca424cd7-725d-4e85-b11b-bdddd74fa150)            
 
 
+
+데이터 크기와 포함 언어 (한국어가 없지만 번역 등의 방법으로 구축은 어렵지 않을 듯함)        
+
+               
 ![xqa](https://github.com/songys/Multilingual-retrival-task/assets/8298703/b4f7d5f1-e400-438f-9dd6-bc77e8a8519d)
+                 
+
+(4) Multi-hop Question Answering                       
+             
+(관련 논문 ) Yang, Zhilin, Peng Qi, Saizheng Zhang, Yoshua Bengio, William Cohen, Ruslan Salakhutdinov, and Christopher D. Manning. 2018. HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 2369–2380, Brussels, Belgium. Association for Computational Linguistics.    
+
+                   
+
+![2](https://github.com/songys/Multilingual-retrival-task/assets/8298703/11b0e0a4-1993-4c4a-b56f-156ce622fb37)    
 
 
-(4) Multi-hop Question Answering
+           
 
-(관련 논문 ) Yang, Zhilin, Peng Qi, Saizheng Zhang, Yoshua Bengio, William Cohen, Ruslan Salakhutdinov, and Christopher D. Manning. 2018. HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 2369–2380, Brussels, Belgium. Association for Computational Linguistics.
+## 참고 문헌 및 자료 링크                 
+Cross-language information retrieval - Wikipedia     
+        
+ryanzhumich/awesome-clir: A curated list of resources for Cross-lingual Information Retrieval (CLIR). (github.com)    
+ 
+notes/Information Retrieval.md at master · brylevkirill/notes · GitHub   
+  
+https://paperswithcode.com/sota/zero-shot-text-search-on-beir  
+Multilingual datasets · beir-cellar/beir Wiki (github.com)   
+BIG-Bench Hard (BBH; Suzgun et al., 2022) and the Bias  Benchmark  for  QA  (BBQ;   Parrish  et  al., 2022). 
+SQuAD Data, TriviaQA Data 등   
 
-
-
-![2](https://github.com/songys/Multilingual-retrival-task/assets/8298703/11b0e0a4-1993-4c4a-b56f-156ce622fb37)
-
-
-
-
-참고 문헌 및 자료 링크
-Cross-language information retrieval - Wikipedia
-
-ryanzhumich/awesome-clir: A curated list of resources for Cross-lingual Information Retrieval (CLIR). (github.com)
-
-notes/Information Retrieval.md at master · brylevkirill/notes · GitHub
-
-https://paperswithcode.com/sota/zero-shot-text-search-on-beir
-Multilingual datasets · beir-cellar/beir Wiki (github.com)
-BIG-Bench Hard (BBH; Suzgun et al., 2022) and the Bias  Benchmark  for  QA  (BBQ;   Parrish  et  al., 2022).
-SQuAD Data, TriviaQA Data 등
-
-
+             
