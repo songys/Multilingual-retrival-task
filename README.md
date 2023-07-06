@@ -48,7 +48,7 @@ URL : https://www.google.com/url?q=https://docs.cohere.com/docs/multilingual-lan
 - 주어진 질문이 얼마나 사실을 필요로 하는가와 관련된 논의는 Mr. TyDi의 negative_passages (list)나 Multi-hop Question Answering이 참조할 필요가 있음
 
 
-3. 데이터
+# 4. 데이터
 ## (1) Large-Scale CLIR Dataset (jhu.edu)
 <논문> Shota Sasaki, Shuo Sun, Shigehiko Schamoni, Kevin Duh, and Kentaro Inui
 Cross-lingual Learning-to-Rank with Shared Representations, Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT), New Orleans, LA, USA. June 2018.
@@ -79,7 +79,7 @@ Cross-lingual Learning-to-Rank with Shared Representations, Proceedings of the 2
 
 |:---:|:-----------------:|:-----------:|:--------:|
 |query_id (string)|query (string)|positive_passages (list)|negative_passages (list)|
-|"1"|"로마의 면적은 서울시의 2배인가요?""|[ { "docid": "3228#0", "text": "로마()는 이탈리아의 수도이자 라치오주의 주도로, 테베레 강 연안에 있다. 로마시의 행정구역 면적은 1,285km2로 서울시의 2배정도이고, 2014년 인구는 290여만명이다. 로마시 권역의 인구는 430여만명이다. [1] 로마 대도시현의 인구는 400만이 넘지만 밀라노나 나폴리 대도시현에 비해 면적이 3~4배 넓은 편이고 되려 로마시의 면적과 밀라노와 나폴리의 대도시현의 면적이 비슷하므로 세 도시 모두 300만 정도로 비슷한 규모의 도시라 볼 수 있다.", "title": "로마" } ]|[ { "docid": "819462#0", "text": "한성백제박물관(漢城百濟博物館, )은 대한민국 서울특별시 송파구 방이동 88-20에 위치한 서울시립박물관이다. 올림픽공원 내부에 위치하고 있으며, 지하3층 지상2층으로 나뉘어져 있다. 상설전시는 서울의 선사·고대문화를 중심으로 백제 탄생 이전과 탄생 후 멸망까지의 내용으로 구성되어 있다. 전시 공간은 지하 2층부터 지상 1층까지이다. 2012년 4월 30일 개관하였고, 총면적은 19,423m 정도이며, 대지면적은 14,894m, 건축면적은 2,901m이다. 관장은(중략)|
+|"1"|"로마의 면적은 서울시의 2배인가요?" | [ { "docid": "3228#0", "text": "로마()는 이탈리아의 수도이자 라치오주의 주도로, 테베레 강 연안에 있다. 로마시의 행정구역 면적은 1,285km2로 서울시의 2배정도이고, 2014년 인구는 290여만명이다. 로마시 권역의 인구는 430여만명이다. [1] 로마 대도시현의 인구는 400만이 넘지만 밀라노나 나폴리 대도시현에 비해 면적이 3~4배 넓은 편이고 되려 로마시의 면적과 밀라노와 나폴리의 대도시현의 면적이 비슷하므로 세 도시 모두 300만 정도로 비슷한 규모의 도시라 볼 수 있다.", "title": "로마" } ] | [ { "docid": "819462#0", "text": "한성백제박물관(漢城百濟博物館, )은 대한민국 서울특별시 송파구 방이동 88-20에 위치한 서울시립박물관이다. 올림픽공원 내부에 위치하고 있으며, 지하3층 지상2층으로 나뉘어져 있다. 상설전시는 서울의 선사·고대문화를 중심으로 백제 탄생 이전과 탄생 후 멸망까지의 내용으로 구성되어 있다. 전시 공간은 지하 2층부터 지상 1층까지이다. 2012년 4월 30일 개관하였고, 총면적은 19,423m 정도이며, 대지면적은 14,894m, 건축면적은 2,901m이다. 관장은(중략)|
 
 위의 데이터의 확장
 https://github.com/beir-cellar/beir/wiki/Multilingual-datasets
