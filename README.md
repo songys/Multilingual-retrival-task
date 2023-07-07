@@ -8,21 +8,22 @@
           
 - General purpose language model이 틀린 답(hallucination)을 말하거나 최근 일어난 일은 대답하지 못함            
 - 두 가지 문제 모두 지식의 부족 때문인 경우가 많음             
-(예) 세종대왕 맥북 던짐사건에 대해 알려줘, 어제 날씨 어땠어,  현재 대한민국의 대통령은 누구지?         
-        
+(예) [세종대왕 맥북 던짐 사건](https://www.hankookilbo.com/News/Read/A2023022215200000727)에 대해 알려줘, 어제 날씨 어땠어,  현재 대한민국의 대통령은 누구지?         
+      ![gpt4](https://github.com/songys/Multilingual-retrival-task/assets/8298703/77f58318-2582-47cd-b624-a6f2494ac871)
+
 
 - 대부분의 초거대 언어 모델은 위와 같은 질문에 대답하지 못하거나 잘못된 답변을 도출할 가능성이 높음         
-- 이를 해결하고자 하는 방법론의 하나로 다국어 검색의 필요성이 있음
+- 이를 해결하고자 하는 방법론의 하나로 다국어 검색의 필요성이 대두됨
     
 
 ## 3. 다국어 검색  과정   
 
 (1) 다국어 Query 입력  : 다양한 언어로 입력된 쿼리   
- (관련 서비스 )  2lingual Google Search URL: 2lingual Google Search                    
+ (관련 서비스 )  [2lingual Google Search](https://2lingual.com/)                  
 
 (2) 다국어 문서 이해     
 쿼리와 연관성이 있을 것으로 보이는 다양한 언어로 작성된 문서를 이해하고 해석해야 단순 링크 전달 이상의 서비스가 가능함      
-(관련 서비스) ChatPDF  URL : ChatPDF - Chat with any PDF!     
+(관련 서비스) [ChatPDF](https://www.chatpdf.com/)  
 
 
 (3) 유저가 요청한 결과를 도출하는 것이 목적
@@ -31,20 +32,17 @@
 URL : https://www.google.com/url?q=https://docs.cohere.com/docs/multilingual-language-models&sa=D&source=docs&ust=1688582768785468&usg=AOvVaw29yJ7vdoi6dvHJcx8alBCe
 ![4](https://github.com/songys/Multilingual-retrival-task/assets/8298703/ab50c4b4-7d3e-4543-9067-9e1c613e6d2a)
 
-
+- 외부 지식의 확장으로 최근의 지식을 찾아서 대답하거나 신뢰할 수 있는 답변을 도출하는 것에 의의가 있음 
 - 기본적으로 Q&A 데이터가 필요함(단문으로만 할 것인지, 장문으로도 할 것인지는 결정해야 함)       
  (한국어 참고 데이터)  KLUE-MRC(klue-benchmark.com)       
 - 사실인지 아닌지 결정(fact checking)을 자동화하기 어려움  
 - fact-knowledge 확인에는 휴먼 리소스가 필요하고 사람에게도 어려운 과제가 될 수 있음 
 - 대화에 포함된 슬롯의 사실성을 체크하는 방식이 도움이 될 수 있을 듯함 
 - cohere 이상의 성능을 내기 위해서는 양질의 임베딩이 절대적으로 필요함    
-- 외부 지식의 확장으로 최근의 지식을 찾아서 대답하거나 신뢰할 수 있는 답변을 도출하는 것에 의의가 있음 
 - 오픈 도메인 챗봇 이상의 확장된 대화 모델이 되기 위해서는 인과 추론에 대한 깊이가 깊어질 필요가 있음       
 (예) 세종 대왕은 맥북이 생산되기 전에 인물이므로 세종 대왕은 맥북을 던질 수 없다는 추론 능력이 요청됨  
 - 아래 3번에서 언급할 대부분의 지식 확장 데이터는 위키 피디아 기반이라서 전문 지식이 부족한 한계가 있으나 현재로서는 최선의 결과인 듯함       
 -추론 능력과 관련하여 Natural Language Inference(KLUE 데이터 참고)나 Adversarial Natural Language Inference (ANLI, Nie et al.) 데이터로 해결하고자 하는 시도가 있었고 추론의 깊이와 관련하여서는 Multi-hop Question Answering 등으로 해결하고자 하는 시도가 있음  
-
-
 - 주어진 질문이 얼마나 사실을 필요로 하는가와 관련된 논의는 Mr. TyDi의 negative_passages (list)나 Multi-hop Question Answering이 참조할 필요가 있음   
 
           
