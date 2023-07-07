@@ -116,6 +116,11 @@ Wikipedia.org에서 Did you know~로 시작하는 페이지 질문을 추출
 Cross-language information retrieval - Wikipedia     
         
 ryanzhumich/awesome-clir: A curated list of resources for Cross-lingual Information Retrieval (CLIR). (github.com)    
+
+
+
+본문 내용을 인용할 때는 다음 링크로 인용 부탁드립니다~~
+https://github.com/songys/Multilingual-retrival-task
  
 notes/Information Retrieval.md at master · brylevkirill/notes · GitHub   
   
