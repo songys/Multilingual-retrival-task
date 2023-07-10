@@ -123,9 +123,11 @@ ryanzhumich/awesome-clir: A curated list of resources for Cross-lingual Informat
 https://github.com/songys/Multilingual-retrival-task
  
 notes/Information Retrieval.md at master · brylevkirill/notes · GitHub   
-  
+https://github.com/caiyinqiong/Semantic-Retrieval-Models  
 https://paperswithcode.com/sota/zero-shot-text-search-on-beir  
 Multilingual datasets · beir-cellar/beir Wiki (github.com)   
+
+
 BIG-Bench Hard (BBH; Suzgun et al., 2022) and the Bias  Benchmark  for  QA  (BBQ;   Parrish  et  al., 2022).    
 https://github.com/webis-de/coling22-benchmark-for-causal-question-answering     
 SQuAD Data, TriviaQA Data 등       
