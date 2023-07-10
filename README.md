@@ -115,21 +115,20 @@ Wikipedia.org에서 Did you know~로 시작하는 페이지 질문을 추출
 ## 참고 문헌 및 자료 링크                 
 Cross-language information retrieval - Wikipedia     
         
-ryanzhumich/awesome-clir: A curated list of resources for Cross-lingual Information Retrieval (CLIR). (github.com)    
-
-
-
-본문 내용을 인용할 때는 다음 링크로 인용 부탁드립니다~~
-https://github.com/songys/Multilingual-retrival-task
- 
-notes/Information Retrieval.md at master · brylevkirill/notes · GitHub   
-https://github.com/caiyinqiong/Semantic-Retrieval-Models  
-https://paperswithcode.com/sota/zero-shot-text-search-on-beir  
-Multilingual datasets · beir-cellar/beir Wiki (github.com)   
+ryanzhumich/awesome-clir: A curated list of resources for Cross-lingual Information Retrieval (CLIR). (github.com)          
+           
+notes/Information Retrieval.md at master · brylevkirill/notes · GitHub           
+https://github.com/caiyinqiong/Semantic-Retrieval-Models              
+https://paperswithcode.com/sota/zero-shot-text-search-on-beir           
+Multilingual datasets · beir-cellar/beir Wiki (github.com)         
 
 
 BIG-Bench Hard (BBH; Suzgun et al., 2022) and the Bias  Benchmark  for  QA  (BBQ;   Parrish  et  al., 2022).    
 https://github.com/webis-de/coling22-benchmark-for-causal-question-answering     
-SQuAD Data, TriviaQA Data 등       
+SQuAD Data, TriviaQA Data 등               
+               
+
+본문 내용을 인용할 때는 다음 링크로 인용 부탁드립니다~~
+https://github.com/songys/Multilingual-retrival-task
 
              
