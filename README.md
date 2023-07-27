@@ -13,7 +13,7 @@
 
 
 - 대부분의 초거대 언어 모델은 위와 같은 질문에 대답하지 못하거나 잘못된 답변을 도출할 가능성이 높음         
-- 이를 해결하고자 하는 방법론의 하나로 다국어 검색의 필요성이 대두됨
+- 이를 해결하고자 하는 방법론의 하나로 다국어 검색의 필요성을 모색하고자 하는 [논의](https://arxiv.org/abs/2104.07567)들이 있음
     
 
 ## 3. 다국어 검색  과정   
@@ -126,9 +126,11 @@ Multilingual datasets · beir-cellar/beir Wiki (github.com)
 BIG-Bench Hard (BBH; Suzgun et al., 2022) and the Bias  Benchmark  for  QA  (BBQ;   Parrish  et  al., 2022).    
 https://github.com/webis-de/coling22-benchmark-for-causal-question-answering     
 SQuAD Data, TriviaQA Data 등               
+
+Kurt Shuster, Spencer Poff, Moya Chen, Douwe Kiela, Jason Weston, 2021, Retrieval Augmentation Reduces Hallucination in Conversation, https://arxiv.org/abs/2104.07567
                
 
 본문 내용을 인용할 때는 다음 링크로 인용 부탁드립니다~~
-https://github.com/songys/Multilingual-retrival-task
+https://github.com/songys/Multilingual-retrival-task, 
 
              
